@@ -127,7 +127,7 @@ def transportation_simplex(allocation, costs):
 
 # Example usage
 if __name__ == "__main__":
-    filepath = "C:\\Users\\acrtl\\OneDrive - De Vinci\\Documents\\ESILV\\A3\\Uvic\\Operationnal Research\\New folder\\transportation_data.xlsx"
+    filepath = "transportation_data.xlsx"
     try:
         supply, demand, costs = read_transportation_file(filepath)
         print("Northwest Corner Method:")
